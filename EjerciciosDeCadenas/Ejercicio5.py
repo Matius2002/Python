@@ -1,0 +1,10 @@
+"""Escribir un programa que pida al usuario que introduzca una frase en la consola y muestre por pantalla la frase invertida."""
+print("---------Primera Forma-----------")
+frase = input("Dígite una frase: ")
+fraseInvertida = ''.join(reversed(frase))
+print(fraseInvertida)
+print("---------Primera Forma-----------")
+print("\n---------Segunda Forma-----------")
+frase2 = input("Dígite su segunda frase: ")
+print(frase2[::-1])
+print("---------Segunda Forma-----------")

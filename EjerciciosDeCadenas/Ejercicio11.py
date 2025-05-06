@@ -4,4 +4,4 @@ con 8 dígitos enteros y 2 decimales."""
 producto = input("Dígite su producto: ")
 precio = float(input("Dígite el precio del producto: "))
 unidades = int(input("Dígite el número de unidades del producto: "))
-print('{producto}: {unidades:3d} unidades x {precio:9.2f}$ = {total:11.2f}$'.format(producto = producto, unidades = unidades, precio = precio, total = unidades * precio))
+print('{producto}: {precio:9.2f}$ x {unidades:3d} unidades = {total:11.2f}$'.format(producto = producto, unidades = unidades, precio = precio, total = unidades * precio))
